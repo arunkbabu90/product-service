@@ -16,9 +16,3 @@ Technologies Used
 * Go to /src/main/resources/application.properties
 * Replace the <port> in  <b>jdbc:postgresql://localhost:<i><b><<port>port></b></i>/<database_name></b>  with the port of your PostgreSQL and <b><i><database_name></i></b> with your own database name
 * Run using <b>ProductserviceApplication.kt</b>
-
-# Setup
-* Install PostgreSQL; you can install it from official website https://www.postgresql.org/download/ OR install via Docker
-* Go to /src/main/resources/application.yml
-* Replace the <i><b>port</b></i> in    with the port of your PostgreSQL and <b><i><database_name></i></b> with the database name
-* Run the application using <b>HumanResourceManagerServiceApplication.kt</b>
